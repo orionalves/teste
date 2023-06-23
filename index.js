@@ -1,5 +1,3 @@
-require('dotenv').config()
-
 const mySecret = process.env.MY_SECRET
 const myVar = process.env.MY_VAR
 
