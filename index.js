@@ -8,3 +8,5 @@ const h2 = document.querySelector('h2')
 
 h1.textContent = mySecret
 h2.textContent = myVar
+
+console.log('Olá mundo!)
