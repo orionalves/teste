@@ -17,10 +17,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
 
-    - name: Install dotenv
-      run: npm install dotenv
-
-    - name: Run JavaScript
+    - name: Deploy
       env:
         MY_SECRET: ${{ secrets.MY_SECRET }}
         MY_VAR: ${{ secrets.MY_VAR }}
