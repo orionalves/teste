@@ -16,8 +16,6 @@ jobs:
 
     - name: Set up Node.js
       uses: actions/setup-node@v2
-
-    - name: Deploy
       env:
         MY_SECRET: ${{ secrets.MY_SECRET }}
         MY_VAR: ${{ secrets.MY_VAR }}
